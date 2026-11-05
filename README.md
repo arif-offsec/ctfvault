@@ -50,7 +50,7 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[picoCTF / picoGym](https://play.picoctf.org/)** — Carnegie Mellon's flagship beginner-to-intermediate archive. Web, Crypto, Forensics, Reverse Engineering, Binary Exploitation, General Skills. picoGym stays open year-round, not just during the annual competition.
 - **[CTFlearn](https://ctflearn.com/)** — Community-submitted challenges tagged by difficulty and category. Free forever, donations optional.
 - **[HackThisSite](https://www.hackthissite.org/)** — One of the oldest training grounds still active. Starts with 11 Basic missions, then moves into JavaScript, programming, stego, forensics, and application challenges.
-- **Hackropole** (France's ANSSI) — 300+ past France Cybersecurity Challenge tasks across crypto/web/forensics/pwn, beginner to expert, no account required.
+- **[Hackropole](https://hackropole.fr/en/)** — 300+ past France Cybersecurity Challenge tasks across crypto/web/forensics/pwn, beginner to expert, no account required.
 - **[Hacker101 CTF](https://ctf.hacker101.com/)** (HackerOne) — Challenge-based levels for practicing web application hacking. Fully free.
 
 #### 🟡 Intermediate
@@ -59,12 +59,12 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[247CTF](https://247ctf.com/)** — Always-on, learning-oriented environment: Web, Crypto, Networking, Reversing, Exploitation.
 - **[RingZer0 CTF](https://ringzer0ctf.com/)** — 300+ exercises across Cryptography, Reverse Engineering, Binary Exploitation, Web, Coding, and jail escapes.
 - **[Defend the Web](https://defendtheweb.net/)** — Interactive security platform covering multiple categories.
-- **TaipanByte CTF** — Web, pwn, crypto, reversing and misc challenges; interface is in Russian.
-- **Cyber CTF** — Open-source labs (Network, AD, Web, Pwn, Crypto, Reverse, CI/CD) described as "free forever."
+- **[TaipanByte CTF](https://ctf.taipanbyte.ru/)** — Web, pwn, crypto, reversing and misc challenges; interface is in Russian.
+- **[Cyber CTF](https://www.cyberctf.org/en)** — Open-source labs (Network, AD, Web, Pwn, Crypto, Reverse, CI/CD) described as "free forever."
 
 #### 🔴 Advanced
-- **SmashTheStack & IO NetGarage** — IRC-coordinated wargame networks; both still maintained.
-- **echoCTF.RED** — Running free since 2019, funded by donations; platform code is open source.
+- **[SmashTheStack](https://www.smashthestack.org/main.html#wargames)** & **[IO NetGarage](http://io.netgarage.org/)** — IRC-coordinated wargame networks; both still maintained.
+- **[echoCTF.RED](https://echoctf.red/)** — Running free since 2019, funded by donations; platform code is open source.
 - **[Try2Hack](https://www.try2hack.nl/)** — One of the oldest challenge sites still standing.
 
 </details>
@@ -95,7 +95,7 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 
 #### 🟢 Beginner
 - **[Google XSS Game](https://xss-game.appspot.com/)** — Progressive, guided XSS challenges.
-- **Google Gruyere** — XSS, CSRF, path traversal and information disclosure in a deliberately bug-ridden toy app.
+- **[Google Gruyere](https://google-gruyere.appspot.com/)** — XSS, CSRF, path traversal and information disclosure in a deliberately bug-ridden toy app.
 - **[OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)** — Full vulnerable web app with a built-in challenge scoreboard; the most popular single OWASP training target.
 - **[OWASP WebGoat](https://github.com/WebGoat/WebGoat)** — Guided lessons paired with vulnerable challenges, built to teach as you go.
 - **[DVWA](https://github.com/digininja/DVWA)** (Damn Vulnerable Web Application) — The classic self-hosted vulnerable app: SQLi, XSS, command injection, file inclusion.
@@ -107,12 +107,12 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[OWASP Security Shepherd](https://github.com/OWASP/SecurityShepherd)** — Web and mobile application security challenges.
 - **[Webhacking.kr](https://webhacking.kr/)** — Long-running Korean platform: PHP flaws, SQLi, client-side bypasses.
 - **[Lord of SQLi](https://los.rubiya.kr/)** — Dedicated entirely to SQL injection filter bypasses and logic flaws.
-- **APIsec University** — Free structured courses: API Penetration Testing, API Security Fundamentals, OWASP API Top 10.
+- **[APIsec University](https://au.apisec.ai/api-tools-and-resources)** — API security tools & resources.
 
 #### 🔴 Advanced
 - **[OWASP crAPI](https://github.com/OWASP/crAPI)** — API1–API10 vulnerabilities, authorization and business-logic flaws in a realistic API.
 - **[Damn Vulnerable GraphQL Application](https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application)** — GraphQL authorization, injection and information-disclosure challenges.
-- **Damn Vulnerable Web Sockets (DVWS)** — WebSocket-specific security testing.
+- **[Damn Vulnerable Web Sockets (DVWS)](https://github.com/interference-security/DVWS)** — WebSocket-specific security testing.
 
 </details>
 
@@ -137,7 +137,7 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[FLARE-On](https://flare-on.com/)** (Mandiant) — The best-known annual single-player reverse engineering CTF; past years' binaries and official solutions stay archived.
 - **[Pwn Adventure 3: Pwnie Island](https://pwnadventure.com/)** (Vector35) — A fully playable 3D MMO built to be hacked via reverse engineering, memory editing and DLL injection.
 - **[challenges.re](http://challenges.re/)** — Standalone reverse engineering exercise set.
-- **MalwareTech's beginner malware reversing challenges** — Introduces common malware-analysis techniques (despite the "beginner" name, assumes RE fundamentals).
+- **[MalwareTech's beginner malware reversing challenges](https://malwaretech.com/labs/)** — Introduces common malware-analysis techniques (despite the "beginner" name, assumes RE fundamentals).
 
 </details>
 
@@ -152,7 +152,7 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[CryptoHack](https://cryptohack.org/)** — Entirely free, donation-funded. Tracks: RSA, Diffie-Hellman, elliptic curves, hash functions, crypto-on-the-web, post-quantum. Includes a CTF Archive of runnable past challenges.
 
 #### 🔴 Advanced
-- **MysteryTwister C3** — Longer-running crypto challenge archive referenced by CryptoHack's own FAQ for deeper material.
+- **[MysteryTwister C3](https://mysterytwister.org/)** — Longer-running crypto challenge archive referenced by CryptoHack's own FAQ for deeper material.
 
 </details>
 
@@ -167,12 +167,12 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[KC7 Cyber](https://www.kc7cyber.com/)** — Free-forever, realistic SOC investigations: log analysis, threat hunting, incident response. 40+ cases.
 - **[MemLabs](https://github.com/stuxnet999/MemLabs)** — Open CTF-style memory forensics challenges built around Volatility.
 - **[Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/)** — PCAP analysis and real malware traffic investigation sets.
-- **Magnet Forensics CTFs** — The Magnet Virtual Summit CTF and the Magnet Weekly CTF archive, each with its own write-up page.
+- **[Magnet Forensics CTFs](https://www.magnetforensics.com/blog/magnet-weekly-ctf-2020-images-and-questions/)** — The Magnet Virtual Summit CTF and the Magnet Weekly CTF archive, each with its own write-up page.
 - **[Splunk Boss of the SOC (BOTS) v3](https://github.com/splunk/botsv3)** — SIEM investigation dataset: network logs, Windows events, AWS activity.
 
 #### 🔴 Advanced
 - **[Honeynet Project Challenges](https://www.honeynet.org/challenges/)** — Historical malware-analysis and DFIR challenge datasets.
-- **BelkaCTF, Cellebrite CTF, DEF CON Blue Team Village CTF, 13Cubed's Mini Memory CTF, DFIR Madness** — Recurring free DFIR-focused CTF archives.
+- **[BelkaCTF](https://belkasoft.com/ctf)**, **[Cellebrite CTF](https://ctf.cellebrite.com/)**, **[DEF CON Blue Team Village CTF](https://ctf.blueteamvillage.org/challenges)**, **[13Cubed's Linux Memory Forensics](https://cdn.13cubed.com/downloads/linux_challenge.zip)**, **[13Cubed's Windows Memory Forensics](https://cdn.13cubed.com/downloads/windows_challenge.zip)**, **[13Cubed's Mini Memory CTF](https://cdn.13cubed.com/downloads/mini_memory_ctf.zip)**, **[DFIR Madness](https://dfirmadness.com/category/labs/)** — Recurring free DFIR-focused CTF archives.
 
 </details>
 
@@ -184,9 +184,9 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[OSINT Dojo](https://osintdojo.com/)** — Structured challenges that rise in difficulty, created by Sinwindie.
 
 #### 🟡 Intermediate
-- **Gralhix OSINT exercises** (Sofia Santos) — A well-regarded public list of OSINT exercises.
+- **[Gralhix OSINT exercises](https://gralhix.com/list-of-osint-exercises/)** (Sofia Santos) — A well-regarded public list of OSINT exercises.
 - **[linuskay/osint-challenges](https://github.com/linuskay/osint-challenges)** — Free, with attribution requested for public use.
-- **OSINT-FR CTF** — Free OSINT CTF run by the OSINT-FR community; the same hub lists **@Quiztime** geolocation quizzes and **@Sector035** challenges, often based on real (sometimes short-lived) cases.
+- **[OSINT-FR CTF](https://ctf.challenge-osint.fr/login)** — Free OSINT CTF run by the OSINT-FR community; the same hub lists **@Quiztime** geolocation quizzes and **@Sector035** challenges, often based on real (sometimes short-lived) cases.
 
 #### 🔴 Advanced
 - **[Trace Labs](https://www.tracelabs.org/)** — Weekly OSINT challenges tied to real missing-persons search methodology, with write-ups and an active Discord. Some Search Party CTF events list a $0.00 ticket — confirm current pricing before registering.
@@ -218,11 +218,11 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 🔴 Advanced — **[CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat)** (Rhino Security Labs, Terraform-deployed scenarios) · **[CloudFoxable](https://github.com/BishopFox/CloudFoxable)** (Seth Art / Bishop Fox, self-hosted AWS CTF)
 
 #### Azure
-🔴 Advanced — **Broken Azure** (deliberately misconfigured environment) · **EntraGoat** (Microsoft Entra ID scenarios) · **[AzureGoat](https://github.com/ine-labs/AzureGoat)** (INE Security — vulnerable Azure infrastructure & identity)
+🔴 Advanced — **[Broken Azure](https://www.brokenazure.cloud/)** (deliberately misconfigured environment) · **[EntraGoat](https://github.com/Semperis/EntraGoat)** (Microsoft Entra ID scenarios) · **[AzureGoat](https://github.com/ine-labs/AzureGoat)** (INE Security — vulnerable Azure infrastructure & identity)
 
 #### Multi-Cloud & Cloud-Native
 🟡 Intermediate — **[Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat)** — 20+ Kubernetes attack-and-defense scenarios with a guided workbook. Free, MIT-licensed, self-hosted on K3s or any cloud cluster.
-🔴 Advanced — **Thunder CTF** (bring your own GCP account) — 6 levels of vulnerable GCP projects, from a Portland State University research paper on low-cost cloud security training.
+🔴 Advanced — **[Thunder CTF](https://thunder-ctf.cloud/)** (bring your own GCP account) — 6 levels of vulnerable GCP projects, from a Portland State University research paper on low-cost cloud security training.
 
 </details>
 
@@ -261,8 +261,8 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 
 #### 🔴 Advanced
 - **[DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)** — Reproductions of real, historical DeFi exploits for study.
-- **Paradigm CTF archives** — Past Paradigm CTF challenges published on GitHub for offline solving.
-- **Damn Vulnerable LLM Agent**, **WithSecure's MyLLMBank / MyLLMDoctor**, **Doublespeak**, **DEF CON AI Village CTF** — Additional free LLM/agent security CTFs.
+- **[Paradigm CTF archives](https://ctf-archives.com/en/ctf/Paradigm)** — Past Paradigm CTF challenges published on GitHub for offline solving.
+- **[Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent)**, **WithSecure's [MyLLMBank](https://myllmbank.com/)** / **[MyLLMDoctor](https://myllmdoc.com/)**, **[Doublespeak](https://doublespeak.chat/#/)** — Additional free LLM/agent security CTFs.
 
 </details>
 
@@ -273,8 +273,8 @@ This category is inherently advanced — expect to need a logic analyzer, UART a
 
 - **[BLE CTF](https://github.com/hackgnar/ble_ctf)** — Bluetooth Low Energy exploitation challenges.
 - **[IoTGoat](https://github.com/scriptingxss/IoTGoat)** — Deliberately insecure OpenWrt-based firmware.
-- **Riscure RHme hardware CTFs** (2015–2018 archives) — Classic hardware-focused CTF challenge sets.
-- **CSAW Embedded Security Challenge** archives — Past embedded-security CTF challenges from NYU's CSAW.
+- **[Riscure RHme hardware CTFs](https://github.com/Keysight)** (2015–2018 archives) — Classic hardware-focused CTF challenge sets.
+- **[CSAW Embedded Security Challenge](https://github.com/TrustworthyComputing/csaw_esc_2026)** archives — Past embedded-security CTF challenges from NYU's CSAW.
 
 </details>
 
@@ -286,8 +286,8 @@ This category is inherently advanced — expect to need a logic analyzer, UART a
 - **[Sajjadium's ctf-archives](https://github.com/sajjadium/ctf-archives)** — MIT-licensed source files pulled from many CTFs over many years.
 - **[archive.ooo](https://archive.ooo/)** — A playable archive of many DEF CON CTF challenges (currently in beta; not every OOO challenge is included).
 - **[SANS Holiday Hack Challenge](https://www.sans.org/mlp/holiday-hack-challenge/)** — Free game-style CTF released each holiday season, beginner warm-ups through expert puzzles. Archive goes back to 2010, and past years stay online.
-- **Hack-A-Sat challenge source** — Source for the Hack-A-Sat 4 qualifier and final challenges, published on GitHub.
-- **CTF-Archives** (Chinese GitHub organization) — Hosts `CTF_Archive_CN`, an archive of attachments from past competitions.
+- **[Hack-A-Sat challenge source](https://hackasat.com/learn/)** — Source for the Hack-A-Sat 4 qualifier and final challenges, published on GitHub.
+- **[CTF-Archives](https://github.com/CTF-Archives/CTF_Archive_CN)** (Chinese GitHub organization) — Hosts `CTF_Archive_CN`, an archive of attachments from past competitions.
 - **[ImaginaryCTF](https://imaginaryctf.org/)** — Regular, beginner-friendly CTFs with write-ups published afterward.
 
 </details>
@@ -305,7 +305,7 @@ These point you *toward* other resources rather than hosting challenges themselv
 - **[WeChall](https://www.wechall.net/)** — Long-running cross-site challenge index; tracks sites like RingZer0 and W3Challs with live challenge counts.
 - **[Rawsec's Cybersecurity Inventory](https://inventory.raw.pm/)** — A large resource table tagging each challenge site as free or paid.
 - **[OWASP Vulnerable Web Applications Directory](https://owasp.org/www-project-vulnerable-web-applications-directory/)** — Registry of known vulnerable web/mobile apps for legal testing.
-- **Awesome CloudSec Labs** — Directory of free AWS, Azure, GCP and Kubernetes security labs.
+- **[Awesome CloudSec Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs)** — Directory of free AWS, Azure, GCP and Kubernetes security labs.
 - **[CTFtime](https://ctftime.org/)** — The global CTF calendar: upcoming and past events, team rankings, and a huge community write-up archive. Start here if you want to join a **live** team CTF rather than an always-on archive.
 - **YouTube channels** — John Hammond, LiveOverflow, ir0nstone, 13Cubed and IppSec are the most commonly recommended for CTF basics, web security, memory forensics, pwn and reverse engineering respectively.
 
