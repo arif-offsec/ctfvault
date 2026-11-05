@@ -114,6 +114,9 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[Damn Vulnerable GraphQL Application](https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application)** — GraphQL authorization, injection and information-disclosure challenges.
 - **[Damn Vulnerable Web Sockets (DVWS)](https://github.com/interference-security/DVWS)** — WebSocket-specific security testing.
 
+### All in One
+- **[Vulnerable Web Applications Directory](https://vwad.owasp.org/)** — A comprehensive registry of known vulnerable web and mobile applications for legal security testing and training by OWASP.
+
 </details>
 
 <details>
