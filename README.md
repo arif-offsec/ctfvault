@@ -203,6 +203,11 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[VulnHub](https://www.vulnhub.com/)** — Massive archive of downloadable boot-to-root VMs, attacked from your own Kali VM. x86/AMD-focused — Apple Silicon Macs will struggle without extra setup.
 - **[Metasploitable3](https://github.com/rapid7/metasploitable3)** (Rapid7) — Free vulnerable Linux/Windows VM, built via Packer/Vagrant. (Metasploitable2 is the older, simpler single-VM version, archived on SourceForge.)
 
+#### 🟡 Intermediate
+
+- **[DetectionLab](https://github.com/clong/DetectionLab)** (Chris Long) — Vagrant/Packer automation that spins up a small working AD domain (DC + Windows/Linux hosts) with logging pre-configured. Built for blue-team/detection practice, but it's a solid live AD target too — a natural step up from VulnHub/Metasploitable3 before tackling the full GOAD.
+- **[HackMyVM](https://hackmyvm.eu/)** — Free, community-run VulnHub-style vulnerable VM host that's picked up a lot of the slack as VulnHub's upload pace has slowed. Mostly Linux, but includes some Windows/AD-adjacent boxes.
+
 #### 🔴 Advanced
 - **[GOAD — Game Of Active Directory](https://github.com/Orange-Cyberdefense/GOAD)** — Free, self-hosted AD lab ranging from a 2-VM MINILAB to the full 5-VM GOAD, plus NHA and DRACARYS scenarios. Uses free 180-day Windows evaluation VMs. Budget ~115 GB disk space.
 
@@ -222,6 +227,10 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 
 #### Azure
 🔴 Advanced — **[Broken Azure](https://www.brokenazure.cloud/)** (deliberately misconfigured environment) · **[EntraGoat](https://github.com/Semperis/EntraGoat)** (Microsoft Entra ID scenarios) · **[AzureGoat](https://github.com/ine-labs/AzureGoat)** (INE Security — vulnerable Azure infrastructure & identity)
+
+#### GCP
+
+🔴 Advanced — **[GCPGoat](https://github.com/ine-labs/GCPGoat)** (INE Security) — Terraform-deployed vulnerable GCP infrastructure covering IAM, Storage Bucket, Cloud Functions and Compute Engine misconfigurations; black-box style with multiple escalation paths. Same cost caveat as the other *Goat projects above — free to deploy, but real GCP charges apply once you're past the free tier.
 
 #### Multi-Cloud & Cloud-Native
 🟡 Intermediate — **[Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat)** — 20+ Kubernetes attack-and-defense scenarios with a guided workbook. Free, MIT-licensed, self-hosted on K3s or any cloud cluster.
@@ -303,6 +312,10 @@ These point you *toward* other resources rather than hosting challenges themselv
 - **[Trail of Bits CTF Field Guide](https://trailofbits.github.io/ctf/)** — Free, open-source (CC-BY-SA-4.0) book on vulnerability discovery, exploit creation, toolkit building and operational tradecraft. Written in 2014 — some content is dated, but the fundamentals hold up.
 - **[CTF101](https://ctf101.org/)** — Beginner handbook covering the basics, key techniques and strategy per category.
 - **[CTF Wiki](https://ctf-wiki.org/)** — Large technique and resource hub, including many Chinese-language resources.
+- **[HackTricks](https://book.hacktricks.xyz/)** — Large, constantly updated pentesting/CTF techniques wiki; its Windows/AD privilege-escalation and attack sections are some of the best free material available.
+- **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)** — Massive community-maintained collection of payloads and bypass techniques spanning nearly every category in this list.
+- **[The Hacker Recipes](https://www.thehacker.recipes/)** — Narrower scope than HackTricks, but excellent and heavily focused on AD/Windows attack techniques.
+- **[GTFOBins](https://gtfobins.github.io/)** / **[LOLBAS](https://lolbas-project.github.io/)** — The standard Linux and Windows "living off the land" privilege-escalation cheat sheets.
 - **[awesome-ctf](https://github.com/apsdehal/awesome-ctf)** (apsdehal, and forks like c4pr1c3's) — Curated list of wargames, tools and tutorials.
 - **[b01lers' welcome-to-ctf](https://github.com/b01lers/welcome-to-ctf)** — A starter path through Nightmare, CTF Wiki, how2heap, pwntools, Ghidra and practice sites.
 - **[WeChall](https://www.wechall.net/)** — Long-running cross-site challenge index; tracks sites like RingZer0 and W3Challs with live challenge counts.
@@ -331,7 +344,8 @@ These are excellent platforms, but their **full catalogue is not free** — each
 | [Blue Team Labs Online](https://blueteamlabs.online/) | Free + paid challenges |
 | [LetsDefend](https://letsdefend.io/) | Free + paid content |
 | [Pwned Labs](https://pwnedlabs.io/) | Some free hosted scenarios; paid bootcamps |
-| CyberTalents | Not all of its CTFs are free |
+| [OffSec Proving Grounds](https://www.offsec.com/labs/play/) | PG Play tier is free — 3 hrs/day on community (VulnHub-sourced) Linux machines, no payment info needed; PG Practice ($19/mo) adds unlimited time plus Windows machines |
+| [CyberTalents](https://cybertalents.com/challenges) | Not all of its CTFs are free |
 
 ## Regional Platforms (pricing unverified)
 
