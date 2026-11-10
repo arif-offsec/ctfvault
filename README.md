@@ -229,7 +229,6 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 🔴 Advanced — **[Broken Azure](https://www.brokenazure.cloud/)** (deliberately misconfigured environment) · **[EntraGoat](https://github.com/Semperis/EntraGoat)** (Microsoft Entra ID scenarios) · **[AzureGoat](https://github.com/ine-labs/AzureGoat)** (INE Security — vulnerable Azure infrastructure & identity)
 
 #### GCP
-
 🔴 Advanced — **[GCPGoat](https://github.com/ine-labs/GCPGoat)** (INE Security) — Terraform-deployed vulnerable GCP infrastructure covering IAM, Storage Bucket, Cloud Functions and Compute Engine misconfigurations; black-box style with multiple escalation paths. Same cost caveat as the other *Goat projects above — free to deploy, but real GCP charges apply once you're past the free tier.
 
 #### Multi-Cloud & Cloud-Native
