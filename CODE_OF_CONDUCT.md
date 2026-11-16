@@ -35,7 +35,7 @@ CTFVault links to third-party platforms and vulnerable-by-design labs. We ask co
 - Not use this list to request help attacking real-world, non-consenting targets
 - Respect each linked platform's own terms of service and rules of engagement
 
-Contributions that primarily serve unauthorized access, fraud, or harming others will be rejected. See the README's [note on using these resources responsibly](README.md#a-note-on-using-these-responsibly).
+Contributions that primarily serve unauthorized access, fraud, or harming others will be rejected. See the README's [note on using these resources responsibly](README-free.md#a-note-on-using-these-responsibly).
 
 ## Enforcement
 
