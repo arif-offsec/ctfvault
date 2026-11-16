@@ -5,7 +5,7 @@
 **A categorized, difficulty-tagged directory of 100+ completely free CTF and cybersecurity practice platforms.**
 
 [![Free](https://img.shields.io/badge/Cost-100%25_Free-brightgreen)](README-free.md)
-[![Categories](https://img.shields.io/badge/Categories-15-blue)](README-free.md)
+[![Categories](https://img.shields.io/badge/Categories-14-blue)](README-free.md#table-of-contents)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -295,6 +295,8 @@ This category is inherently advanced — expect to need a logic analyzer, UART a
 
 <details>
 <summary><h2>CTF Archives &amp; Past Competitions</h2></summary>
+
+These are archives of past events rather than live difficulty-tiered tracks, so entries aren't split into Beginner/Intermediate/Advanced here.
 
 - **[pwn.college CTF Archive](https://pwn.college/)** — 650+ past CTF challenges spanning over a decade, preconfigured in browser-based Docker sandboxes.
 - **[Google CTF GitHub](https://github.com/google/google-ctf)** — Challenge source and infrastructure from Google CTF since 2017 (pwn, reversing, crypto, web, sandboxing, forensics). ⚠️ Deliberate vulnerabilities — never run on production infrastructure.
