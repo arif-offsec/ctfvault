@@ -1,11 +1,11 @@
 <div align="center">
 
-# 🗝️ CTFVault
+# 🗝️ CTFVault — 100% Free
 
 **A categorized, difficulty-tagged directory of 100+ completely free CTF and cybersecurity practice platforms.**
 
-[![Free](https://img.shields.io/badge/Cost-100%25%20Free-brightgreen)]()
-[![Categories](https://img.shields.io/badge/Categories-15-blue)]()
+[![Free](https://img.shields.io/badge/Cost-100%25_Free-brightgreen)](README-free.md)
+[![Categories](https://img.shields.io/badge/Categories-15-blue)](README-free.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -15,11 +15,13 @@
 
 ## About
 
-CTFVault is a curated, deduplicated list of free CTF platforms, wargames, vulnerable labs, and challenge archives — sorted by subject (Web, Crypto, Pwn, Forensics, Active Directory, Cloud, Mobile, and more) and tagged 🟢 Beginner, 🟡 Intermediate, or 🔴 Advanced within each category, so you can find your actual starting point instead of scrolling a flat list.
+This file lists only platforms that are **free to access without any subscription or paid tier** — no sample content, no "free to start" hook, no paywall waiting past challenge #2. Everything here is usable in full for $0.
+ 
+Looking for solid platforms that have a real but *partial* free tier (TryHackMe, Hack The Box, PentesterLab, etc.)? See **[README-freemium.md](README-freemium.md)** instead — kept as a separate file on purpose, so the two are never mixed.
+ 
+Sorted by subject (Web, Crypto, Pwn, Forensics, Active Directory, Cloud, Mobile, and more) and tagged 🟢 Beginner, 🟡 Intermediate, or 🔴 Advanced within each category, so you can find your actual starting point instead of scrolling a flat list.
 
-A resource is listed in the main sections only if it's free to access without a subscription or paid tier. Platforms that are free-to-start but paywalled past a point (TryHackMe, Hack The Box, Root-Me, PentesterLab, etc.) are kept in a clearly marked [Freemium](#freemium--free-tier-only) section instead of the main list, so the two are never mixed.
-
-No list like this can stay perfectly current — CTF sites appear and disappear constantly. If a link is dead or a platform's pricing changed, please open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md).
+No list like this can stay perfectly current — CTF sites appear and disappear constantly. If a link is dead or a platform has quietly gone freemium, please open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Table of Contents
 
@@ -37,8 +39,6 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - [Hardware & Embedded](#hardware--embedded)
 - [CTF Archives & Past Competitions](#ctf-archives--past-competitions)
 - [Learning Guides, Field Manuals & Curated Lists](#learning-guides-field-manuals--curated-lists)
-- [Freemium / Free-Tier Only](#freemium--free-tier-only)
-- [Regional Platforms (pricing unverified)](#regional-platforms-pricing-unverified)
 - [A Note on Using These Responsibly](#a-note-on-using-these-responsibly)
 
 ---
@@ -61,6 +61,7 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 - **[Defend the Web](https://defendtheweb.net/)** — Interactive security platform covering multiple categories.
 - **[TaipanByte CTF](https://ctf.taipanbyte.ru/)** — Web, pwn, crypto, reversing and misc challenges; interface is in Russian.
 - **[Cyber CTF](https://www.cyberctf.org/en)** — Open-source labs (Network, AD, Web, Pwn, Crypto, Reverse, CI/CD) described as "free forever."
+- **[HackingHub](https://app.hackinghub.io/hubs)** — 150+ free, instantly-launchable browser labs built around real CVEs and bug-bounty-style web/API vulnerabilities, with some mobile and binary content mixed in.
 
 #### 🔴 Advanced
 - **[SmashTheStack](https://www.smashthestack.org/main.html#wargames)** & **[IO NetGarage](http://io.netgarage.org/)** — IRC-coordinated wargame networks; both still maintained.
@@ -94,6 +95,8 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 <summary><h2>Web Application & API Security</h2></summary>
 
 #### 🟢 Beginner
+- **[HackerTest.net](https://www.hackertest.net/)** — Old-school 20-level web hacking wargame, no login required. Simple and dated, but a genuinely free straight-in starting point.
+- **[Hacksplaining](https://www.hacksplaining.com/app/lessons)** — Free interactive lessons on the OWASP Top 10 and emerging LLM vulnerabilities; animated walkthrough + hands-on exploit for each. Free for individual use; only team dashboards/compliance reporting are paid.
 - **[Google XSS Game](https://xss-game.appspot.com/)** — Progressive, guided XSS challenges.
 - **[Google Gruyere](https://google-gruyere.appspot.com/)** — XSS, CSRF, path traversal and information disclosure in a deliberately bug-ridden toy app.
 - **[OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)** — Full vulnerable web app with a built-in challenge scoreboard; the most popular single OWASP training target.
@@ -103,6 +106,7 @@ No list like this can stay perfectly current — CTF sites appear and disappear 
 
 #### 🟡 Intermediate
 - **[PortSwigger Web Security Academy](https://portswigger.net/web-security)** — 200+ free interactive labs on real target instances: SQLi, XSS, SSRF, request smuggling, prototype pollution, JWT flaws. The industry-standard free web security training.
+- **[BugForge](https://app.bugforge.io/)** — A new realistic, bug-bounty-style web vuln lab every 24 hours (daily fundamentals + weekly real-world-modelled challenges), runs entirely in-browser.
 - **[OWASP Mutillidae II](https://github.com/webpwnized/mutillidae-II)** — 40+ intentionally vulnerable scenarios.
 - **[OWASP Security Shepherd](https://github.com/OWASP/SecurityShepherd)** — Web and mobile application security challenges.
 - **[Webhacking.kr](https://webhacking.kr/)** — Long-running Korean platform: PHP flaws, SQLi, client-side bypasses.
@@ -328,35 +332,6 @@ These point you *toward* other resources rather than hosting challenges themselv
 
 ---
 
-## Freemium / Free-Tier Only
-
-These are excellent platforms, but their **full catalogue is not free** — each has a meaningful paywall beyond a free tier or sample. Listed here instead of the main sections so the two are never confused.
-
-| Platform | What's actually free |
-|---|---|
-| [TryHackMe](https://tryhackme.com/) | A rotating set of free rooms; most content requires a subscription |
-| [Hack The Box](https://www.hackthebox.com/) | Starting Point machines + limited retired-machine access |
-| [HTB Academy](https://academy.hackthebox.com/) | Some modules free; most require a paid tier |
-| [Root-Me](https://www.root-me.org/) | Sources disagree — some call it free for public use with a paid "Pro" tier, others tag it fully paid. Verify current terms before relying on it. |
-| [PentesterLab](https://pentesterlab.com/) | Roughly half the content is free; PRO tier is paid |
-| [CyberDefenders](https://cyberdefenders.org/) | Free practice labs alongside paid labs |
-| [Blue Team Labs Online](https://blueteamlabs.online/) | Free + paid challenges |
-| [LetsDefend](https://letsdefend.io/) | Free + paid content |
-| [Pwned Labs](https://pwnedlabs.io/) | Some free hosted scenarios; paid bootcamps |
-| [OffSec Proving Grounds](https://www.offsec.com/labs/play/) | PG Play tier is free — 3 hrs/day on community (VulnHub-sourced) Linux machines, no payment info needed; PG Practice ($19/mo) adds unlimited time plus Windows machines |
-| [CyberTalents](https://cybertalents.com/challenges) | Not all of its CTFs are free |
-
-## Regional Platforms (pricing unverified)
-
-Mentioned frequently in community lists, but we couldn't independently confirm current pricing — check before relying on these:
-
-**China:** CTFHub · BugKu · XCTF Adworld · BUUCTF
-**Korea:** Dreamhack
-**Japan:** AlpacaHack
-**Spain:** Atenea (CCN-CERT)
-
----
-
 ## A Note on Using These Responsibly
 
 - Only attack targets you're explicitly authorized to test — the platform's own challenge infrastructure, or VMs/labs you run yourself.
@@ -368,7 +343,7 @@ Mentioned frequently in community lists, but we couldn't independently confirm c
 
 ## Contributing
 
-Found a dead link, a platform that's gone freemium, or a great resource that's missing? See [CONTRIBUTING.md](CONTRIBUTING.md) — PRs are very welcome.
+Found a dead link, a platform that's gone freemium, or a great resource that's missing? See [CONTRIBUTING.md](CONTRIBUTING.md) — PRs are very welcome. If something's only partially free, it belongs in [README-freemium.md](README-freemium.md), not here.
 
 ## Code of Conduct
 
@@ -386,5 +361,6 @@ Found a malicious or hijacked link in this list? See [SECURITY.md](SECURITY.md) 
 
 <div align="center">
 <b>Pick a tier. Start solving. 🚩</b><br><br>
+See also: **[README-freemium.md](README-freemium.md)** — platforms with a real but partial free tier.
 <a href="https://github.com/arif-offsec/ctfvault">github.com/arif-offsec/ctfvault</a>
 </div>
