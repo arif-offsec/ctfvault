@@ -23,7 +23,7 @@ Instead:
 1. **GitHub Private Vulnerability Reporting** (preferred) — [Security tab](https://github.com/arif-offsec/ctfvault/security) → "Report a vulnerability"
 2. **Direct message** via [@arif-offsec](https://github.com/arif-offsec) on GitHub
 
-Include the exact URL, which section of the README it's in, and what you observed (redirect target, content served, etc.).
+Include the exact URL, which file and section it's in (`README-free.md`, `README-freemium.md`, etc.), and what you observed (redirect target, content served, etc.).
 
 This project is maintained in spare time. Malicious-link reports will be prioritized and the offending entry removed as fast as possible once confirmed — usually within a day or two.
 
