@@ -17,24 +17,31 @@ You don't need to ask permission for small fixes — just open a PR.
 ## Adding a New Resource
 
 1. **Confirm it's genuinely free.** No subscription, no paid tier blocking the core challenges. A free sample of a paid platform doesn't qualify — see the [Freemium](README-freemium.md) section for where those go instead.
-2. **Pick the right category** from the Table of Contents. If it doesn't fit cleanly, say so in your PR and we'll figure it out together.
+2. **Pick the right category** from the [Table of Contents](README-free.md#table-of-contents). If it doesn't fit cleanly, say so in your PR and we'll figure it out together.
 3. **Pick a difficulty tier:**
    - 🟢 **Beginner** — no prior experience needed, or teaches the fundamentals as you go
    - 🟡 **Intermediate** — assumes basic familiarity with the category (e.g. you've used a debugger before, you know basic SQL)
    - 🔴 **Advanced** — assumes solid fundamentals; the challenge itself is the hard part, not learning the basics
-4. **Format the entry** to match existing ones:
-   ```markdown
-   - **[Resource Name](https://example.com)** — One or two sentences: what it covers, what makes it worth listing.
-   ```
+4. **Format the entry** to match the file you're adding it to:
+   - In `README-free.md` (100% free resources):
+     ```markdown
+     - **[Resource Name](https://example.com)** — One or two sentences: what it covers, what makes it worth listing.
+     ```
+   - In `README-freemium.md` (freemium / free-tier-only resources):
+     ```markdown
+     - **[Resource Name](https://example.com)** - One short clause on exactly what's free vs. paid.
+     ```
 5. **Keep descriptions factual and concise.** No marketing language — say what it actually covers.
 
 ## Fixing a Dead Link
 
-Open a PR removing or updating the link. If you know a working replacement (e.g. the project moved to a new domain or GitHub org), include it. If a resource is simply gone with no replacement, it's fine to just remove the entry — note that in your PR description so it's not mistaken for an accidental deletion.
+> ⚠️ If a link isn't just dead but has been **hijacked or now serves something malicious** (malware, phishing, a credential-harvesting clone), don't open a public PR or issue — see [SECURITY.md](SECURITY.md) and report it privately instead, so it can be pulled before anyone else clicks it.
+
+Open a PR removing or updating the link.
 
 ## Reporting a Pricing Change
 
-If a platform listed as free now has a paywall (or a Freemium-listed platform expanded its free tier), open a PR moving it to the correct section, or open an issue if you're not sure how to phrase the change.
+If a platform listed as free now has a paywall (or a Freemium-listed platform expanded its free tier), open a PR moving it to the correct file — reformatting the entry to match that file's style (see "Format the entry" above) — or open an issue if you're not sure how to phrase the change.
 
 ## Commit Messages
 
@@ -51,7 +58,7 @@ Avoid vague messages like `update` or `fix stuff`.
 ## Submitting a Pull Request
 
 1. Fork the repo and create a branch
-2. Make your change in `README.md`
+2. Make your change in `README-free.md` (100% free resources) or `README-freemium.md` (freemium / free-tier-only resources)
 3. Open a PR describing what changed and why — for a new resource, confirm you've verified it's actually free
 4. One logical change per PR is easier to review than a bundle of unrelated edits
 
