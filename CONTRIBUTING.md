@@ -16,7 +16,7 @@ You don't need to ask permission for small fixes — just open a PR.
 
 ## Adding a New Resource
 
-1. **Confirm it's genuinely free.** No subscription, no paid tier blocking the core challenges. A free sample of a paid platform doesn't qualify — see the [Freemium](README.md#freemium--free-tier-only) section for where those go instead.
+1. **Confirm it's genuinely free.** No subscription, no paid tier blocking the core challenges. A free sample of a paid platform doesn't qualify — see the [Freemium](README-freemium.md) section for where those go instead.
 2. **Pick the right category** from the Table of Contents. If it doesn't fit cleanly, say so in your PR and we'll figure it out together.
 3. **Pick a difficulty tier:**
    - 🟢 **Beginner** — no prior experience needed, or teaches the fundamentals as you go
