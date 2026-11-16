@@ -361,6 +361,6 @@ Found a malicious or hijacked link in this list? See [SECURITY.md](SECURITY.md) 
 
 <div align="center">
 <b>Pick a tier. Start solving. 🚩</b><br><br>
-See also: **[README-freemium.md](README-freemium.md)** — platforms with a real but partial free tier.
+<b>See also: **[README-freemium.md](README-freemium.md)** — platforms with a real but partial free tier.</b><br><br>
 <a href="https://github.com/arif-offsec/ctfvault">github.com/arif-offsec/ctfvault</a>
 </div>
