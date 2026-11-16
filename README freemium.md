@@ -5,7 +5,9 @@
 **Platforms with real, substantial free content — but a genuine paywall somewhere in the full catalogue.**
  
 [![Freemium](https://img.shields.io/badge/Cost-Freemium-yellow)](README-freemium.md) [![Companion to](https://img.shields.io/badge/Companion_to-README--free.md-brightgreen)](README-free.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
- 
+
+</div>
+
 ---
  
 ## About
