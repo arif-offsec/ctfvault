@@ -25,7 +25,7 @@
 
 - [ ] I confirmed the link works and goes to the resource I intended
 - [ ] I confirmed this resource is actually free (not a free sample of a paid platform)
-- [ ] The entry follows the existing format: `**[Name](url)** — description`
+- [ ] The entry follows the existing format of the file I edited — bullet style in `README-free.md` (`**[Name](url)** — description`) or table-row style in `README-freemium.md` (`| [Name](url) | What's actually free |`)
 - [ ] This isn't a duplicate of something already listed
 - [ ] This PR does one logical thing (not a bundle of unrelated edits)
 
